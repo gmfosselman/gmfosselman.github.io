@@ -2,7 +2,14 @@ body {
     color: #566158;
     background: #CCE6D0; 
     font-family: 'Source Sans Pro', sans-serif;
-    }
+}
+
+a {
+    color: #404040;
+    text-decoration-color: #A55858;
+}
+
+/* $("a[href^='http://']").attr("target","_blank"); */
 
 .siteHeader {
     height: 125px;
@@ -16,11 +23,6 @@ body {
     border-bottom-style: double;
     border-width: 2px;
     border-color: #39613E;
-    }
-
-a {
-    color: #404040;
-    text-decoration-color: #A55858;
 }
 
 .siteHeader a:hover {
@@ -44,12 +46,6 @@ h1 {
     top: 65px;
 }
 
-article a {
-    color: #404040;
-    text-decoration-color: #A55858;
-    text-decoration-style: double;
-}
-
 /* .boundary-line-vertical {
     width: 2px;
     height: 100%;
@@ -68,7 +64,7 @@ nav {
     border-right-style: double;
     border-width: 2px;
     border-color: #39613E;
-    }
+}
 
 nav ul {
     line-height: 1.5;
@@ -87,7 +83,7 @@ nav ul {
 /* indented li for nav */
 .sub-bullet {
     margin-left: 1em;
-    }
+}
 
 main {
     column-count: 3;
@@ -97,7 +93,7 @@ main {
     margin-left: 150px;
     margin-top: 150px;
     overflow-x: hidden;
-    }
+}
 
 article {
     background: #eeeeee;
@@ -106,7 +102,7 @@ article {
     margin: 10px;
     page-break-inside: avoid;
     font-size: 15px;
-    }
+}
 
 article header {
     width: fit-content;
@@ -123,6 +119,12 @@ article header p {
     display: block;
 }
 
+article a {
+    color: #404040;
+    text-decoration-color: #A55858;
+    text-decoration-style: double;
+}
+
 article a:hover {
     color: #A55858;
 }
@@ -131,13 +133,13 @@ article a:hover {
     width: 100%; 
     height: 100%; 
     object-fit: contain;
-    } 
+} 
 
 .quad img {
     width: 49.5%; 
     height: 49.5%; 
     object-fit: contain;
-    }
+}
 
 h4 {
     border-bottom: solid;

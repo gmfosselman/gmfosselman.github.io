@@ -169,3 +169,12 @@ article footer a {
     position: fixed;
     bottom: 0;
 }
+
+.pagination {
+    list-style-type: none;
+    display: flex;
+}
+
+.pagination li {
+    margin: 0 2px;
+}
